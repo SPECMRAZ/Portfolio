@@ -1,0 +1,220 @@
+@import 'fonts.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333333;
+    font-family: 'Fari';
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar{
+    background-color: thistle;
+    width: 90%;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    /* border: 1px solid red; */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.logo1{
+    width: 180px;
+    height: 40px;
+    display: flex;
+    background: url(../images/logo1.svg) no-repeat center left;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* border: 1px solid yellow; */
+}
+.logo1 h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 0 0 0 50px;
+}
+.menu-list{
+    display: flex;
+}
+.menu-list li{
+    padding: 0 16px;
+}
+.menu-list a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.menu-list a:hover{
+    color: #F44A25;
+    font-weight: 500;
+    font-size: 16px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.buttons a{
+    padding: 0 12px;
+}
+.buttons button{
+    color: #ffffff;
+    width: 103px;
+    height: 40px;
+    background-color: #F44A25;
+    border: transparent;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.header{
+    background-color: thistle;
+    width: 90%;
+    height: 540px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header_text{
+    justify-self: flex-start;
+    position: relative;
+}
+.header_text h1{
+    width: 830px;
+    font-size: 70px;
+    font-weight: 300;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: -85px;
+}
+.header_text span{
+    font-weight: 400;
+}
+.header_text p{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 58px;
+}
+.header_text button{
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    border: transparent;
+    border-radius: 25px;
+    background: #F44A25;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    cursor: pointer;
+}
+.header_image{
+    width: 50%;
+    height: 500px;
+    background: url(../images/pizza2.jpg) no-repeat bottom left;
+    /* border: 2px solid yellow; */
+}
+.gradient{
+    width: 500px;
+    /* border: 1px solid blue; */
+    height: 500px;
+    background: linear-gradient(-270deg, rgb(216, 191, 216) 25.52%, rgba(216, 191, 216, 0.913) 39.28%, rgba(216, 191, 216, 0.757) 57.22%, rgba(216, 191, 199, 0.018) 87.25%);
+}
+.contents{
+    background-color: thistle;
+    padding: 15px 0 ;
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contents h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 74px;
+    padding-bottom: 30px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+}
+.card{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    width: 24.5%;
+    height: 450px;  
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgb(249, 165, 249);
+    flex: 0 1 auto;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card p{
+    font-weight: 300;
+    font-size: 13.8552px;
+    line-height: 18px;
+    margin: 15px 0 0 15px;
+}
+.card h3{
+    font-weight: 600;
+    font-size: 23.7517px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 15px;
+}
+.card img{
+    position: absolute;
+    top: -110px;
+    left: -145px;
+    clip-path: polygon(100% 19%, 0 0, 0 69%);
+    width: 200%;
+}
+.card select{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border: transparent;
+    width: 180px;
+    height: 35px;
+    border-radius: 30px;
+}
+.card button{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 35px;
+    border: transparent;
+    border-radius: 30px;
+    background: #F44A25;
+    color: #ffffff;
+}
+.footbar{
+    width: 90%;
+    height: 100px;
+    background: thistle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

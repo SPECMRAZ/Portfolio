@@ -1,0 +1,175 @@
+@import url(fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    list-style: none;
+    text-decoration: none;
+}
+/* ...Меню... */
+ .navbar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+} 
+ .itemsul{
+    display: flex;
+    margin-left: 23%;
+}
+ .itema{
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;   
+    color: #3A3838;
+    font-weight: 700;
+    padding: 15px;
+}
+ .itemsul :hover{
+    font-style: normal;
+    color: #EF4423;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+}
+/* ...Картина-Илюстрация... */
+.image1{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+/* ...Таблица... */
+.contayner{
+    margin-top: 26px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    /* border: 1px dashed blue; */
+}
+.contents{
+    width: 1500px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red;   */
+}
+.contentq{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contentq img {
+    width: 100%;
+    height: 175px;
+}
+.contentq h3{
+    font-style: normal;
+    font-size: 19px;
+    line-height: 22px;      
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.contentq p{
+    font-style: normal;
+    line-height: 19px;
+    color: #EBEBEB;
+    font-weight: 400;
+    font-size: 16px;
+}
+.bg1{
+    background: #B71C1C;
+    height: auto;
+}
+.bg2{
+    background: #6A1B9A;
+    height: auto;
+}
+.bg3{
+    background: #303F9F;
+    height: auto;
+}
+.bg4{
+    background: #00695C;
+    height: auto;
+}
+.texts{
+    min-height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 5px 15px 15px;
+}
+/* ...Главные новости... */
+.majority{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.majority a{
+    font-style: normal;
+    line-height: 26px;
+    color: #3A3838;
+    font-weight: 700;
+    font-size: 22px;
+}
+.majority a :hover{
+    color: #EF4423;
+}
+/* ...Таблица с планшетом... */
+.boxer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.skeyt{
+    padding-left: 70px;
+}
+.itemstext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 0 25px 30px;
+    padding-right: 70px;
+}
+.itemstext h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;        
+    line-height: 26px;
+    color: #3A3838;
+    padding-bottom: 25px;
+}
+.itemstext p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    color: #686868;
+    font-style: normal;
+}
+/* ...Footer... */
+.bgb{
+    margin-top: 30px;
+    background: #3A3838;;
+}
+.bgb2{
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 15px;
+}

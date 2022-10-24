@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    width: 1200px;
+    height: 654px;
+    margin: 6px auto;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}    
+.item{
+    width: 380px;
+    height: 196px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+img{
+    width: 380px;
+    height: 196px;
+}
+.bg1{
+    background: orangered;
+    text-align: center;
+}
+.bg2{
+    background: yellow;
+}
+p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.putb{
+    font-size: 30px;
+}
+a{
+    text-decoration-line: none;
+}
